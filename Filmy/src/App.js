@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <form>
         <div class="mb-3">
-          <label for="film" class="form-label">Tytuł filmu</label>
+          <div id="film" class="form-label">Tytuł filmu</div>
           <input type="text" class="form-control" id="film"/>
         </div>
-        <label for="Wybierz" class="from-label">Wybierz rodzaj filmu</label>
+        <div id="Wybierz" class="from-label">Wybierz rodzaj filmu </div>
         <select id="Select" class="form-label">
           <option></option>
           <option>Komedia</option>
@@ -17,7 +17,7 @@ function App() {
           <option>Horror</option>
           <option>Obyczajowy</option>
         </select>
-        <div><button type="submit" class="btn btn-primary">Zastosuj</button></div>
+        <div><button type="submit" class="btn btn-primary">Dodaj</button></div>
       </form>
     </div>
   );
